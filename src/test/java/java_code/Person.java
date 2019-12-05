@@ -6,4 +6,8 @@ public class Person {
     private String fullName;
      private String address;
      private int SSN;
+
+     public Person(int age){
+         this.age=age;
+     }
 }
